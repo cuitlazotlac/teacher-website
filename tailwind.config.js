@@ -35,9 +35,10 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sora)", ...fontFamily.sans],
+        sans: ["var(--font-jakarta)", ...fontFamily.sans],
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
+        pacifico: "var(--font-pacifico)",
       },
       letterSpacing: {
         tagline: ".15em",
@@ -82,11 +83,11 @@ export default {
             {},
         },
         ".h1": {
-          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+          "@apply font-pacifico text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
             {},
         },
         ".h2": {
-          "@apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
+          "@apply font-pacifico text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
             {},
         },
         ".h3": {
