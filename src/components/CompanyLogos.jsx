@@ -1,10 +1,13 @@
 import { companyLogos } from "../constants";
+import { useTranslation } from "react-i18next";
 
 const CompanyLogos = ({ className }) => {
+  const { t } = useTranslation();
+
   return (
     <div className={className}>
-      <h5 className="tagline mb-6 text-center text-n-1/50">
-        Helping people create beautiful content at
+      <h5 className="mb-6 text-center tagline text-n-1/50">
+      {t("Hero.Title4")}
       </h5>
       <ul className="flex">
         {companyLogos.map((logo, index) => (
