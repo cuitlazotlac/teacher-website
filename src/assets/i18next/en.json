@@ -1,0 +1,39 @@
+{
+  "Navigation": {
+    "Home": "Home",
+    "Resume": "Resume",
+    "Contact": "Contact"
+  },
+  "Hero": {
+    "Title1": "Let's get started with your French",
+    "Title2": "Adventure",
+    "Title3": " We are a here to help learn french with native french teatcher ! Let's Speak French Together!",
+    "HeroButton": "Join the club !",
+    "Title4": "Our teachers use to teach at :"
+  },
+  "Benefits": {
+    "Title1": "What are our expertises ?"
+  },
+  "Collaboration": {
+    "Title1": "Why virtual classes only ?",
+    "Title2": "We've developed our entire expertise in teaching students remotely, allowing them to learn from the comfort of their homes. We've created a suite of tools to help keep kids attentive and engaged."
+  },
+  "Services": {
+    "Title1": "What are some of our standout features?",
+    "Title2": "What unique qualities define our approach to teaching French?",
+    "ServiceTitle1": "What are some of our standout features?",
+    "ServiceTitle2": "What are some of our standout features?",
+    "ServiceDescription1": "What are some of our standout features?",
+    "ServiceDescription2": "What are some of our standout features?",
+    "ServiceDescription3": "What are some of our standout features?"
+  },
+  "Footer": {
+    "Title": "Hayssem Vazquez-Elsayed",
+    "Description": "Senior Product Manager building products to help bitcoin miners maximize their hashrate.",
+    "Section": "Sections",
+    "Social Links": "Social Links",
+    "English": "English 🇨🇦",
+    "French": "French 🇫🇷",
+    "Spanish": "Spanish 🇲🇽"
+  }
+}

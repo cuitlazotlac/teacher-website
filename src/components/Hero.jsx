@@ -8,9 +8,11 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
+  const { t } = useTranslation();
 
   return (
     <Section
@@ -23,9 +25,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="mb-6 h1">
-            Let's get started with your French{" "}
+            {t("Hero.Title1")}
             <span className="relative inline-block">
-              Adventure{" "}
+              {t("Hero.Title2")}{" "}
               <img
                 src={curve}
                 className="absolute left-0 w-full top-full xl:-mt-2"
@@ -36,11 +38,10 @@ const Hero = () => {
             </span>
           </h1>
           <p className="max-w-3xl mx-auto mb-6 body-1 text-n-2 lg:mb-8">
-            We are a here to help learn french with native french teatcher !
-            Let's Speak French Together!
+            {t("Hero.Title3")}
           </p>
           <Button href="/pricing" white>
-            Join the club !
+            {t("Hero.HeroButton")}
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
