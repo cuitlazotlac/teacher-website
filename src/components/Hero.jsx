@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="mb-6 h1">
-            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
+            Let's get started with your French{" "}
             <span className="relative inline-block">
-              Brainwave{" "}
+              Adventure{" "}
               <img
                 src={curve}
                 className="absolute left-0 w-full top-full xl:-mt-2"
@@ -36,11 +36,11 @@ const Hero = () => {
             </span>
           </h1>
           <p className="max-w-3xl mx-auto mb-6 body-1 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            We are a here to help learn french with native french teatcher !
+            Let's Speak French Together!
           </p>
           <Button href="/pricing" white>
-            Get started
+            Join the club !
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
