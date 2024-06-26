@@ -8,30 +8,34 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
-          6: "#FF98E2",
+          1: "#ED7071",
+          2: "#4DADE9",
+          3: "#F4AC58",
+          4: "#ED7071",
+          5: "#4DADE9",
+          6: "#F4AC58",
         },
         stroke: {
           1: "#26242C",
         },
         n: {
-          1: "#FFFFFF",
-          2: "#CAC6DD",
-          3: "#ADA8C3",
-          4: "#757185",
-          5: "#3F3A52",
-          6: "#252134",
-          7: "#15131D",
-          8: "#0E0C15",
+          //main-text
+          1: "#000000",
+          //desc
+          2: "#000000",
+          // benefits-color-text
+          3: "#000000",
+          // collaboration-color-text
+          4: "#000000",
+          5: "#000000",
+          6: "#000000",
+          7: "#F4AC58",
+          8: "#F8EBE3",
           9: "#474060",
-          10: "#43435C",
-          11: "#1B1B2E",
-          12: "#2E2A41",
-          13: "#6C7275",
+          10: "#000000",
+          11: "#000000",
+          12: "#000000",
+          13: "#000000",
         },
       },
       fontFamily: {
@@ -70,7 +74,7 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          "conic-gradient(from 225deg, #f8ebe3, #fddac1, #fdca9f, #faba7c, #f4ac58)",
       },
     },
   },
