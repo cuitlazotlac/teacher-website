@@ -20,7 +20,7 @@ const Benefits = () => {
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="block relative p-0.5 bg-no-repeat md:max-w-[24rem]"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
@@ -36,10 +36,10 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  {/* <p className="ml-auto text-xs font-bold tracking-wider uppercase font-code text-n-1">
+                  <p className="ml-auto text-xs font-bold tracking-wider uppercase font-code text-n-1">
                     Explore more
                   </p>
-                  <Arrow /> */}
+                  <Arrow />
                 </div>
               </div>
 
