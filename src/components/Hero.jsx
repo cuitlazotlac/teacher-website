@@ -40,7 +40,7 @@ const Hero = () => {
           <p className="max-w-3xl mx-auto mb-6 body-1 text-n-2 lg:mb-8">
             {t("Hero.Title3")}
           </p>
-          <Button href="/pricing" white>
+          <Button href="/pricing" black>
             {t("Hero.HeroButton")}
           </Button>
         </div>
