@@ -21,11 +21,11 @@
   "Services": {
     "Title1": "What are some of our standout features?",
     "Title2": "What unique qualities define our approach to teaching French?",
-    "ServiceTitle1": "What are some of our standout features?",
-    "ServiceTitle2": "What are some of our standout features?",
-    "ServiceDescription1": "What are some of our standout features?",
-    "ServiceDescription2": "What are some of our standout features?",
-    "ServiceDescription3": "What are some of our standout features?"
+    "ServiceTitle1": "Focus on Children's Classes",
+    "ServiceTitle2": "I've built most of my experience teaching kids from 3 years old to 10.",
+    "ServiceDescription1": "Introduction to the French language",
+    "ServiceDescription2": "Homework assistance",
+    "ServiceDescription3": "Test preparation"
   },
   "Footer": {
     "Title": "Hayssem Vazquez-Elsayed",
